@@ -1,5 +1,5 @@
 # Image-Classification-without-CNN
-Classification of birds image
+Classification of birds images
 
 ## Dataset Description
 
