@@ -20,10 +20,10 @@ Let's have a look on one of the images of these birds
 Northern cardinal (Class 1)
 ![Northern cardinal](https://user-images.githubusercontent.com/53952516/121660620-0e290400-cac1-11eb-823b-f97a6712c93b.jpg)
 
-Cock of the rock (Class 2)
+Cock of the rock  (Class 2)
 ![Cockof the rock](https://user-images.githubusercontent.com/53952516/121660341-cefab300-cac0-11eb-966c-64e107b0e8d5.jpg)
 
-Scarlet macaw (Class 3)
+Scarlet macaw     (Class 3)
 ![Scarlet macaw](https://user-images.githubusercontent.com/53952516/121660722-23059780-cac1-11eb-8d9a-a69a95b7916d.jpg)
 
 ## Spatial based Feature Extraction
