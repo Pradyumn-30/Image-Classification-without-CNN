@@ -8,9 +8,12 @@ Images are of different sizes and dimensions and are of .jpg format.
 Every image has a different orientation of the bird which adds sufficient amount of variability in the dataset and makes the classification model more robust. 
 
 Number of records for each bird are as follows:
-Cock of the rock  ---> 124
-Northern cardinal ---> 101
-Scarlet macaw     ---> 105
+
+| Type of bird | Number of records |
+| --- | --- |
+| Cock of the rock	| 124 |
+| Northern Cardinal	| 101 |
+| Scarlet macaw	| 105 |
 
 Let's have a look on one of the images of these birds
 
@@ -50,6 +53,35 @@ Features may have very different ranges and hence feature values are normalized 
 Applying train test split to the data. ( 70% train and 30% test)
 
 ## Feature Description
+
+| Feature | Description |
+| --- | --- |
+| meanR	| Mean of the pixel values for Red channel |
+| meanG	| Mean of the pixel values for Green channel |
+| meanB	| Mean of the pixel values for Blue channel |
+| stdR	| Standard deviation for Red Channel |
+| stdG	| Standard deviation for Green Channel |
+| stdB	| Standard deviation for Blue Channel |
+| meanGray | Mean of the pixel values for gray scale image |
+| stdGray	| Standard deviation for gray scale image |
+| entropy	| Entropy of the pixel values for gray scale image |
+| aboveR	| Number of pixel values above meanR |
+| belowR	| Number of pixel values below meanR |
+| aboveG	| Number of pixel values above meanG |
+| belowG	| Number of pixel values below meanG |
+| aboveB | Number of pixel values above meanB |
+| belowB | Number of pixel values below meanB |
+| FFT_avg | Average of the pixel values after applying Fast Fourrier Transformation |
+| FFT_med |	Median of the pixel values after applying Fast Fourrier Transformation |
+| FFT_max |	Maximum pixel value after applying Fast Fourrier Transformation |
+| FFT_min |	Minimum of the pixel values after applying Fast Fourrier Transformation |
+| DCT	| Discrete Cosine Transformation of the image |
+| H_avg	| Average of the pixel values after applying Haar Wavelet Transformation |
+| H_med	| Median of the pixel values after applying Haar Wavelet Transformation |
+| H_std	| Standard deviation of the pixel values after applying Haar Wavelet Transformation |
+| H_max	| Maximum of the pixel values after applying Haar Wavelet Transformation |
+| H_min | Minimum of the pixel values after applying Haar Wavelet Transformation |
+| Label | Class label |
 
 ## Classification
 
