@@ -11,16 +11,19 @@ Number of records for each bird are as follows:
 
 | Type of bird | Number of records |
 | --- | --- |
-| Cock of the rock	| 124 |
-| Northern Cardinal	| 101 |
-| Scarlet macaw	| 105 |
+| Northern Cardinal	(class 1) | 101 |
+| Cock of the rock (class 2) | 124 |
+| Scarlet macaw (class 3)	| 105 |
 
 Let's have a look on one of the images of these birds
 
-![Cockof the rock](https://user-images.githubusercontent.com/53952516/121660341-cefab300-cac0-11eb-966c-64e107b0e8d5.jpg)
-
+Northern cardinal (Class 1)
 ![Northern cardinal](https://user-images.githubusercontent.com/53952516/121660620-0e290400-cac1-11eb-823b-f97a6712c93b.jpg)
 
+Cock of the rock (Class 2)
+![Cockof the rock](https://user-images.githubusercontent.com/53952516/121660341-cefab300-cac0-11eb-966c-64e107b0e8d5.jpg)
+
+Scarlet macaw (Class 3)
 ![Scarlet macaw](https://user-images.githubusercontent.com/53952516/121660722-23059780-cac1-11eb-8d9a-a69a95b7916d.jpg)
 
 ## Spatial based Feature Extraction
