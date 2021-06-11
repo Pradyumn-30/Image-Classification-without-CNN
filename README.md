@@ -17,6 +17,12 @@ Number of records for each bird are as follows:
 
 Let's have a look on one of the images of these birds
 
+![Cockof the rock](https://user-images.githubusercontent.com/53952516/121660341-cefab300-cac0-11eb-966c-64e107b0e8d5.jpg)
+
+![Northern cardinal](https://user-images.githubusercontent.com/53952516/121660620-0e290400-cac1-11eb-823b-f97a6712c93b.jpg)
+
+![Scarlet macaw](https://user-images.githubusercontent.com/53952516/121660722-23059780-cac1-11eb-8d9a-a69a95b7916d.jpg)
+
 ## Spatial based Feature Extraction
 
 The MATLAB code uses various predefined functions to obtain spatial domain-based features. imresize( ) resizes each image to 400 x 400 pixels.
@@ -103,6 +109,7 @@ A simple classification report gives the following results
 We can see model is performing well. ( We dont have overfitting or underfitting)
 
 Train accuracy = 0.94
+
 Test accuracy =  0.92
 
 Here F1 score is more reliable than accuracy as dataset is not balanced.
