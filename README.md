@@ -94,3 +94,15 @@ SVC parametersis as follows--> kernel = 'linear', C = 100, class_weight = 'balan
 
 A simple classification report gives the following results
 
+| Class | Train F1 Score | Test F1 Score |
+| --- | --- | --- |
+| 1	| 0.89 | 0.85 |
+| 2	| 1.00 | 1.00 |
+| 3	| 0.90 | 0.87 |
+
+We can see model is performing well. ( We dont have overfitting or underfitting)
+
+Train accuracy = 0.94
+Test accuracy =  0.92
+
+Here F1 score is more reliable than accuracy as dataset is not balanced.
